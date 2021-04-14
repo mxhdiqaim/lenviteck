@@ -202,6 +202,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #f4f4f4;
 }
 
 footer ul {
@@ -226,7 +227,6 @@ footer ul li a:hover {
 
 footer p {
   margin-bottom: 10px;
-  color: #f4f4f4;
 }
 
 @media (max-width: 700px) {
