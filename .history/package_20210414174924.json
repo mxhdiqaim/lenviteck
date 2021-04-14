@@ -1,11 +1,10 @@
 {
-  "homepage": "https://mahdiabubakar.github.io/shop-work",
   "name": "shop-work",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "test": ""
   },
   "repository": {
     "type": "git",
