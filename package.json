@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mahdiabubakar/shop-work/issues"
   },
-  "homepage": "https://github.com/mahdiabubakar/shop-work#readme"
+  "homepage": "https://github.com/mahdiabubakar/shop-work#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
