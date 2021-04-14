@@ -1,0 +1,19 @@
+{
+  "name": "shop-work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahdiabubakar/shop-work.git"
+  },
+  "author": "Mahdi Abubakar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahdiabubakar/shop-work/issues"
+  },
+  "homepage": "https://github.com/mahdiabubakar/shop-work#readme"
+}
