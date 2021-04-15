@@ -34,12 +34,20 @@ img {
   padding: 0 2rem;
 }
 
+.container-1 {
+  max-width: 1100px;
+  margin-left: 100px;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
 .section-1 {
   padding: 20px 10px;
   background: #333333;
   color: #f4f4f4;
   margin: 10px auto;
   border-radius: 10px;
+  margin-top: 70px;
 }
 
 .section-1 .works-list {
@@ -166,9 +174,11 @@ input {
   z-index: 1;
   width: 100%;
   background: #333333;
-  opacity: 0.9;
+  opacity: 0.8;
   color: #f4f4f4;
   margin-bottom: 1rem;
+  position: fixed;
+  top: 0;
 }
 
 .navbar ul {
@@ -196,13 +206,15 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   color: #f4f4f4;
+  padding-top: 5px;
+  padding-bottom: -2px;
 }
 
 footer ul {
@@ -236,7 +248,6 @@ footer p {
   /* Navbar */
   .navbar {
     display: block;
-    text-align: center;
   }
   .navbar ul {
     text-align: center;
@@ -244,5 +255,80 @@ footer p {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .container-1 {
+    max-width: 1100px;
+    margin: auto;
+    text-align: left;
+    overflow: hidden;
+    padding: 0 2rem;
+  }
+  /*
+  * Business Add Hub
+  */
+  .company {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .company img {
+    width: 90% !important;
+    margin: auto;
+  }
+  .business-add-hub {
+    position: relative;
+    top: 60px;
+    left: 60px !important;
+  }
+  .mr-1 {
+    margin-left: -30px !important;
+  }
+}
+
+/*
+ * Business Add Hub
+*/
+.business-add-hub {
+  color: #000;
+  position: relative;
+  max-width: 1100px;
+  margin: auto;
+  top: 60px;
+  left: 10px;
+}
+
+.business-add-hub .mr-1 {
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  background: #333333;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.company div {
+  padding: 10px;
+  line-height: 1.8;
+}
+
+.company img {
+  width: 200px;
+}
+
+.section-2 {
+  padding: 20px 10px;
+  color: #f4f4f4;
+  margin: 10px auto;
+  border-radius: 10px;
+  margin-top: 70px;
 }
 /*# sourceMappingURL=main.css.map */
