@@ -45,6 +45,21 @@ img {
   width: 100%;
 }
 
+.logo-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  img, h1 {
+    margin: 0 8px 0;
+  }
+
+  img {
+    width: 50px;
+    border-radius: 50%;
+  }
+}
+
 .container {
   max-width: 1100px;
   margin: auto;
@@ -59,13 +74,12 @@ img {
   padding: 0 2rem;
 }
 
-.section-1 {
+.work {
   padding: 20px 10px;
   background: $dark-color;
   color: $light-color;
   margin: 10px auto;
   border-radius: 10px;
-  // height: calc(100vh - 100px);
   margin-top: 70px;
 
   .works-list {
@@ -293,8 +307,31 @@ footer {
     left: 60px !important;
   }
 
-  .mr-1 {
+  h1 {
     margin-left: -30px !important;
+  }
+
+  .section-2 {
+    margin-top: 70px;
+  
+  }
+
+  .business-add-hub {
+    margin: 25px !important;
+    // margin: auto;
+    position: absolute;
+
+    h1 {
+      font-weight: 500;
+    }
+  }
+
+  .logo-div {
+    justify-content: space-evenly;
+  }
+
+  .section-1 h1 {
+      margin-left: 18px !important;
   }
 }
 
@@ -304,17 +341,11 @@ footer {
 
 
 .business-add-hub {
-  color: #000;
+  margin: 95px 0 0 25px;
   position: relative;
-  max-width: 1100px;
-  margin: auto;
-  top: 60px;
-  left: 10px;
 
-  .mr-1 {
-    margin-left: 30px;
+  h1 {
     font-weight: 500;
-    font-size: 1.3rem;
   }
 }
 
@@ -342,12 +373,21 @@ footer {
 
 
 .section-2 {
-  padding: 20px 10px;
-  // background: $dark-color;
   color: $light-color;
-  margin: 10px auto;
   border-radius: 10px;
-  // height: calc(100vh - 100px);
-  margin-top: 70px;
+}
 
+
+/*
+ * SECTIONS
+ */
+
+.section-1 {
+  width: 100%;
+  h1 {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 90px;
+    margin-bottom: -70px;
+  }
 }

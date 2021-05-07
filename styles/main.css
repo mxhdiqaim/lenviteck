@@ -27,6 +27,27 @@ img {
   width: 100%;
 }
 
+.logo-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo-div img, .logo-div h1 {
+  margin: 0 8px 0;
+}
+
+.logo-div img {
+  width: 50px;
+  border-radius: 50%;
+}
+
 .container {
   max-width: 1100px;
   margin: auto;
@@ -41,7 +62,7 @@ img {
   padding: 0 2rem;
 }
 
-.section-1 {
+.work {
   padding: 20px 10px;
   background: #333333;
   color: #f4f4f4;
@@ -50,20 +71,20 @@ img {
   margin-top: 70px;
 }
 
-.section-1 .works-list {
+.work .works-list {
   padding: 10px;
   width: 100%;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 
-.section-1 .works-list ul li a {
+.work .works-list ul li a {
   color: #f4f4f4;
   -webkit-transition: color .3s ease;
   transition: color .3s ease;
 }
 
-.section-1 .works-list ul li a:hover {
+.work .works-list ul li a:hover {
   color: #dbdbdb;
 }
 
@@ -281,8 +302,26 @@ footer p {
     top: 60px;
     left: 60px !important;
   }
-  .mr-1 {
+  h1 {
     margin-left: -30px !important;
+  }
+  .section-2 {
+    margin-top: 70px;
+  }
+  .business-add-hub {
+    margin: 25px !important;
+    position: absolute;
+  }
+  .business-add-hub h1 {
+    font-weight: 500;
+  }
+  .logo-div {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .section-1 h1 {
+    margin-left: 18px !important;
   }
 }
 
@@ -290,18 +329,12 @@ footer p {
  * Business Add Hub
 */
 .business-add-hub {
-  color: #000;
+  margin: 95px 0 0 25px;
   position: relative;
-  max-width: 1100px;
-  margin: auto;
-  top: 60px;
-  left: 10px;
 }
 
-.business-add-hub .mr-1 {
-  margin-left: 30px;
+.business-add-hub h1 {
   font-weight: 500;
-  font-size: 1.3rem;
 }
 
 .company {
@@ -325,10 +358,21 @@ footer p {
 }
 
 .section-2 {
-  padding: 20px 10px;
   color: #f4f4f4;
-  margin: 10px auto;
   border-radius: 10px;
-  margin-top: 70px;
+}
+
+/*
+ * SECTIONS
+ */
+.section-1 {
+  width: 100%;
+}
+
+.section-1 h1 {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 90px;
+  margin-bottom: -70px;
 }
 /*# sourceMappingURL=main.css.map */
